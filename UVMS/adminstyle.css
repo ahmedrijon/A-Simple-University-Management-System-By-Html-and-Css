@@ -1,0 +1,53 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: verdana;
+  background:  #7FFFD4;
+  background: url(images/ar.jpg) no-repeat;
+  background-size: cover;
+  height: 100vh;
+
+}
+.fild{
+  width: 310px;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-45%);
+  background: #808080;
+  text-align: center;
+  opacity: 0.9;
+}
+.fild h1{
+  color: white;
+  text-transform: uppercase;
+  font-weight: 1000;
+  text-shadow: 2px 2px 5px red;
+}
+.fild input[type = "text"],.fild input[type = "password"]{
+  border:0;
+  background: none;
+  display: flex;
+  margin: 15px auto;
+  text-align: center;
+  border:2px solid #87CEEB;
+  padding: 14px 10px;
+  width: 180px;
+  outline: none;
+  color: black;
+  transition: 0.20s;
+  cursor: pointer;
+}
+.fild input[type = "text"]:focus,.fild input[type = "password"]:focus{
+
+  width: 260px;
+  border-color: #DAA520;
+}
+.fild input[type = submit]{
+  width: 50px;
+}
+.fild input[type = submit]:hover{
+  transition: .20s;
+  background: #2691d9;
+}

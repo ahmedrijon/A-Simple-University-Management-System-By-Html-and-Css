@@ -1,0 +1,123 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.wrapper{
+	background: url(images/ar.jpg) no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+.wrapper .menubar{
+	position: fixed;
+	width: 200px;
+	height: 100%;
+	background: cadetblue;
+	padding: 30px 0;
+}
+.wrapper .menubar ul{
+	list-style-type: none;
+}
+.wrapper .menubar ul li{
+	padding: 15px;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+	border-top: 1px solid rgba(225,225,225,0.05);
+}
+.wrapper .menubar ul li a{
+	color: whitesmoke;
+	display: block;
+	text-decoration: none;
+}
+.wrapper .menubar h2
+{
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+	text-shadow: 2px 2px 5px blue;
+}
+.wrapper .menubar ul li:hover{
+	background: crimson;
+}
+.vertical{
+	float: right;
+	width: 860px;
+	line-height: 60px;
+	background: gray;
+	padding-left: 80%;
+	padding-bottom: auto;
+}
+.vertical ul li{
+	display: inline;
+	width: 1166px;
+	padding: 6%;
+}
+.vertical ul li a{
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+	font-weight: bold;
+}
+.vertical ul li a:hover{
+	background: cadetblue;
+}
+.btn{
+	width: auto;
+	border-color: #2196F3;
+    position: absolute;
+    list-style-type: none;
+    transform: translate(1000%, 105%);
+    transition: .4s;
+	cursor: pointer;
+}
+.btn .btn2{
+	background-color: skyblue;
+	outline: none;
+}
+.btn .btn2 a{
+	text-decoration: none;
+}
+.second{
+	text-shadow: 2px 2px 5px red;
+	position: absolute;
+	transform: translate(135%, 1655%);
+	text-align: center;
+	font-weight: bold;
+	color: white;
+}
+.btn .btn2 a:hover{
+	background-color: yellow;
+}
+.fas{
+	padding: 1.5%;
+	color: black;
+}
+.vertical .fas{
+	color: skyblue;
+}
+.ico5{
+	float: right;
+	display: inline-block;
+	width: 25px;
+	padding-top: 8px;
+}
+.ico1{
+	padding-top: 8px;
+}
+.ico2{
+	padding-top: 8px;
+}
+.ico3{
+	padding-top: 8px;
+}
+.ico .fab{
+	color: blue;
+}
+.ico1 .fab{
+	color: violet;
+}
+.ico2 .fab{
+	color: green;
+}
+.ico3 .fab{
+	color: aqua;
+}

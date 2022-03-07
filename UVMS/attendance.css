@@ -1,0 +1,42 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background: url(images/aten.jpg) no-repeat;
+	background-size: cover;
+	height: 100vh;
+	font-family: Arial;
+}
+table input {
+  background-color: white; /*#627287;*/
+}
+table td button {
+  background-color: #627287;
+}
+.fild{
+	margin-top: 50px;
+	padding: 5px;
+	background: grey;
+}
+.form-group{
+	background-color: grey;
+	padding: 20px;
+}
+h1{
+	padding-top: 90px;
+	text-shadow: 3px 2px 5px red;
+	color: white;
+}
+h3{
+	padding-bottom: 10px;
+}
+p{
+	padding-top: 10px;
+}
+.btn:hover{
+	background-color:yellow;
+	cursor: pointer;
+
+}
+.btn{background-color: skyblue;}
